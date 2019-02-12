@@ -16,9 +16,10 @@ for(var i=0; i < musicians.length; i++)
       } 
   return array}
   function iLoveTheBeatles(n) { var array =[]; var n = 0
-    do {array.push("I love the Beatles!")
+    do { n++
+      array.push("I love the Beatles!")
     return array
-      n++
+     
     }
     while (n<15)
   }
